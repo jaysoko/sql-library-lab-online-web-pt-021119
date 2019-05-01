@@ -22,4 +22,6 @@ CREATE TABLE series (
   id INTEGER PRIMARY KEY,
   name TEXT,
   motto TEXT,
+  series_id INTEGER,
+  author_id INTEGER,
   species TEXT);

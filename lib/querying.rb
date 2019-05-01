@@ -34,5 +34,7 @@ LIMIT 1;"
 end
 
 def select_character_names_and_number_of_books_they_are_in
-  "Write your SQL query here"
+  "SELECT name FROM characters
+JOIN character_books ON character_books.character_id = characters.id
+ORDER BY name;"
 end

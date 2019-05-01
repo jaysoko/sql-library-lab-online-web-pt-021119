@@ -22,7 +22,3 @@ CREATE TABLE series (
   name TEXT,
   motto TEXT,
   species TEXT);
-
-  CREATE TABLE authors (
-  id INTEGER PRIMARY KEY,
-  name TEXT);
